@@ -1,0 +1,31 @@
+header logo a{
+    font-size: 21px;
+    line-height: 25.41px;
+}
+header .menu-lg ul li {
+    transition: 0.5s;
+}
+
+header .menu-lg ul li:hover {
+    font-weight: 600;
+    @apply bg-slate-500 rounded
+}
+
+header .menu-sm li a {
+    margin-left: 20px;
+}
+
+header .menu-sm li {
+    position:relative;
+}
+
+header .menu-sm li::after {
+    content: url("../../assets/ship-vector.png");
+    background-color: #2C64E4;
+    position: absolute;
+    left: 6.49%;
+    right: 82.7%;
+    top: 25%;
+    bottom: 25%;
+    @apply rounded-full h-5 w-5 flex items-center justify-center
+}
