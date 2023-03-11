@@ -7,7 +7,7 @@ import Ships from './Ships/Ships'
 
 const Home = () => {
   return (
-    <section className='grid p-3 md:grid-cols-3 lg:grid-cols-5 gap-4'>
+    <section className='grid md:grid-cols-3 lg:grid-cols-5'>
       <div className='bg-black min-h-96 p-3'>
         <>
           <div className='card flex justify-center small-card text-white global-icon'>
@@ -22,7 +22,7 @@ const Home = () => {
         </h3>
         <Ships />
       </div>
-      <div className='md:col-span-2 lg:col-span-4 ship-reports'>
+      <div className='md:col-span-2 lg:col-span-4 ship-reports p-2'>
         <h2 className='text-lg font-bold my-4'>Global Ship Report</h2>
         <ShipReport />
         <div className='divider'>Cargo Gear</div>
