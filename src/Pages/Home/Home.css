@@ -1,0 +1,22 @@
+.individual-ship {
+    color: rgba(192, 209, 252, 0.66);
+}
+.global-icon {
+    background-image: linear-gradient(to left,#598BFC,#1A55DB);
+}
+.global-icon {
+    height: 56px;
+    width: 216px;
+}
+.ship-card img {
+    height: 26px;
+    width: 26px;
+}
+
+.ship-reports {
+    background-color: #F4F8FF;
+}
+.report {
+    background-image: url("../../assets/card-bg.png");
+    background-color: #FFFFFF;
+}
